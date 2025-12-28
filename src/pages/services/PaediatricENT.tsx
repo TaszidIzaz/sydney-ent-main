@@ -18,7 +18,7 @@ const PaediatricENT = () => {
           accentPhrase="Child-Focused Care"
           title="Paediatric ENT Services"
           subtitle="Specialized ear, nose, and throat care tailored specifically for children and young patients."
-          backgroundImage="https://images.unsplash.com/photo-1577564086302-8d65882d3b25?q=80&w=2940&auto=format&fit=crop"
+          backgroundImage="https://images.unsplash.com/photo-1505751172876-fa1923c5c528?q=80&w=2940&auto=format&fit=crop"
           actionText="Schedule Consultation"
           onActionClick={() => window.location.href = '/contact'}
         />

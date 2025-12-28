@@ -18,7 +18,7 @@ const EarTreatments = () => {
           accentPhrase="Specialized ENT Care"
           title="Expert Ear Treatment Solutions"
           subtitle="Comprehensive care for hearing loss, infections, tinnitus, and balance disorders by our experienced specialists."
-          backgroundImage="https://images.unsplash.com/photo-1590611936760-eae9f0705b0d?q=80&w=2940&auto=format&fit=crop"
+          backgroundImage="https://images.unsplash.com/photo-1576085898419-d54e840d898f?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           actionText="Schedule Consultation"
           onActionClick={() => window.location.href = '/contact'}
         />
