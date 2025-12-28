@@ -121,7 +121,7 @@ const Team = () => {
     {
       name: "Dr. Zubair Hasan",
       title: "Founder & Director of Sydney Northwest ENT",
-      image: "/lovable-uploads/dr-zubair-new.jpg",
+      image: "/lovable-uploads/dr-zubair-updated.jpg",
       bio: `Zubair grew up on locally, only a short distance from the current practice, and went to Winston Hills Public School in his formative years. He completed his high school education at North Sydney Boys'.
 
 His medical journey commenced in 2007, prior to graduating in 2012. He was an intern, resident and senior resident in Western Sydney Local Health District prior to commencing the long journey to becoming a surgeon in 2016.

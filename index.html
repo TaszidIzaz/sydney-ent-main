@@ -3,26 +3,81 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>sydney-ent-compass</title>
-    <meta name="description" content="Lovable Generated Project" />
-    <meta name="author" content="Lovable" />
 
-    <meta property="og:title" content="sydney-ent-compass" />
-    <meta property="og:description" content="Lovable Generated Project" />
+    <!-- Primary SEO -->
+    <title>Sydney Northwest ENT | Ear, Nose & Throat Specialist in Sydney</title>
+    <meta
+      name="description"
+      content="Sydney Northwest ENT provides expert ear, nose and throat care in Sydney. Specialising in sinus, hearing, nasal and throat conditions with trusted ENT specialists."
+    />
+    <meta name="author" content="Sydney Northwest ENT" />
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://sydneynorthwestent.com/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="Sydney Northwest ENT | ENT Specialists in Sydney" />
+    <meta
+      property="og:description"
+      content="Expert ENT care in Sydney. Sydney Northwest ENT specialises in ear, nose and throat treatments, sinus issues, hearing loss and more."
+    />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <meta property="og:url" content="https://sydneynorthwestent.com/" />
+    <meta property="og:image" content="https://sydneynorthwestent.com/og-image.jpg" />
 
+    <!-- Twitter / X -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@lovable_dev" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <meta name="twitter:title" content="Sydney Northwest ENT | ENT Specialists in Sydney" />
+    <meta
+      name="twitter:description"
+      content="Trusted ENT specialists in Sydney providing expert care for ear, nose and throat conditions."
+    />
+    <meta name="twitter:image" content="https://sydneynorthwestent.com/og-image.jpg" />
+
+    <!-- Local SEO -->
+    <meta name="geo.region" content="AU-NSW" />
+    <meta name="geo.placename" content="Sydney" />
+    <meta name="geo.position" content="-33.8688;151.2093" />
+    <meta name="ICBM" content="-33.8688, 151.2093" />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "MedicalClinic",
+        "name": "Sydney Northwest ENT",
+        "url": "https://sydneynorthwestent.com",
+        "description": "Specialist ENT clinic in Sydney providing expert care for ear, nose and throat conditions.",
+        "medicalSpecialty": "Otolaryngology",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Sydney",
+          "addressRegion": "NSW",
+          "addressCountry": "AU"
+        }
+      }
+    </script>
+
+    <!-- Favicon (optional but recommended) -->
+    <link rel="icon" type="image/png" href="/favicon.png" />
   </head>
 
   <body>
     <div id="root"></div>
+
     <!-- Health Engine Appointments Widget -->
-    <script data-he-id="100246" data-alignment="right" data-he-fixed="true" data-background-color="#04838C" src="https://healthengine.com.au/webplugin/appointments.js"></script>
+    <script
+      data-he-id="100246"
+      data-alignment="right"
+      data-he-fixed="true"
+      data-background-color="#04838C"
+      src="https://healthengine.com.au/webplugin/appointments.js"
+    ></script>
+
     <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS VERY COMMENT! -->
     <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
+
+    <!-- App Entry -->
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
