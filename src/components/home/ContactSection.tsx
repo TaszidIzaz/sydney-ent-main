@@ -5,6 +5,7 @@ import { useInView } from 'react-intersection-observer';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
+import { toast } from '@/components/ui/sonner';
 
 const ContactSection = () => {
   const { ref, inView } = useInView({
@@ -67,11 +68,11 @@ const ContactSection = () => {
                       <p className="text-gray-700">Winston Hills NSW</p>
                       <p className="text-amber-600 font-medium text-sm">(Under Construction)</p>
                     </div>
-                    <div>
+                    {/* <div>
                       <p className="text-gray-700 font-semibold">Macquarie Park Consulting Rooms:</p>
                       <p className="text-gray-700">Level 1, 11 Khartoum Rd,</p>
                       <p className="text-gray-700">Macquarie Park NSW 2113</p>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
 
@@ -95,7 +96,27 @@ const ContactSection = () => {
             <div className="p-8 rounded-xl border border-gray-200 shadow-sm bg-white">
               <h3 className="text-2xl font-bold text-gray-900 mb-6">Send us a Message</h3>
               
-              <form className="space-y-4">
+              <form
+                className="space-y-4"
+                onSubmit={(e) => {
+                  e.preventDefault();
+                  const form = e.currentTarget as HTMLFormElement;
+                  const data = new FormData(form);
+                  const name = String(data.get('name') || '');
+                  const phone = String(data.get('phone') || '');
+                  const email = String(data.get('email') || '');
+                  const subject = String(data.get('subject') || '');
+                  const message = String(data.get('message') || '');
+                  if (!name || !phone || !email || !subject || !message) {
+                    toast.error('Please fill in all fields');
+                    return;
+                  }
+                  toast.success('Message sent', {
+                    description: 'Thanks for reaching out. We will contact you soon.',
+                  });
+                  form.reset();
+                }}
+              >
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div>
                     <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
@@ -103,6 +124,7 @@ const ContactSection = () => {
                     </label>
                     <Input
                       id="name"
+                      name="name"
                       placeholder="John Smith"
                       className="w-full"
                       required
@@ -114,6 +136,7 @@ const ContactSection = () => {
                     </label>
                     <Input
                       id="phone"
+                      name="phone"
                       placeholder="(02) 9999 9999"
                       className="w-full"
                       required
@@ -128,6 +151,7 @@ const ContactSection = () => {
                   <Input
                     id="email"
                     type="email"
+                    name="email"
                     placeholder="john.smith@example.com"
                     className="w-full"
                     required
@@ -140,6 +164,7 @@ const ContactSection = () => {
                   </label>
                   <Input
                     id="subject"
+                    name="subject"
                     placeholder="Appointment Request"
                     className="w-full"
                     required
@@ -152,6 +177,7 @@ const ContactSection = () => {
                   </label>
                   <Textarea
                     id="message"
+                    name="message"
                     placeholder="How can we help you?"
                     className="w-full min-h-[120px]"
                     required
@@ -170,7 +196,7 @@ const ContactSection = () => {
 
         {/* Maps Section */}
         <div className={`mt-16 transition-all duration-1000 delay-700 ${inView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-          <div className="grid md:grid-cols-2 gap-6">
+          <div className="grid md:grid-cols gap-6">
             {/* Winston Hills Map */}
             <div className="bg-gray-200 rounded-xl overflow-hidden shadow-lg h-[400px]">
               <div className="bg-gray-100 px-4 py-3 border-b">
@@ -190,7 +216,7 @@ const ContactSection = () => {
               />
             </div>
             
-            {/* Macquarie Park Map */}
+            {/* Macquarie Park Map
             <div className="bg-gray-200 rounded-xl overflow-hidden shadow-lg h-[400px]">
               <div className="bg-gray-100 px-4 py-3 border-b">
                 <h3 className="font-semibold text-gray-800">Macquarie Park Consulting Rooms</h3>
@@ -206,7 +232,7 @@ const ContactSection = () => {
                 referrerPolicy="no-referrer-when-downgrade"
                 title="Macquarie Park Practice Location"
               />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

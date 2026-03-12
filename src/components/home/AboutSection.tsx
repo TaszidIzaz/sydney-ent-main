@@ -41,10 +41,7 @@ const AboutSection = () => {
       <div className="container mx-auto px-4 md:px-6">
         {/* Dr. Zubair Hasan Section */}
         <div ref={ref1} className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start mb-24">
-          {/* Doctor's Image */}
-          <div className={`relative h-[600px] rounded-2xl overflow-hidden shadow-xl transition-all duration-1000 ${inView1 ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'}`}>
-            <img src="/lovable-uploads/dr-zubair-updated.jpg" alt="Dr. Zubair Hasan" className="w-full h-full object-cover object-top" />
-          </div>
+          
 
           {/* Content */}
           <div className="flex flex-col min-h-[600px]">
@@ -93,7 +90,13 @@ const AboutSection = () => {
                 </div>
                </div> */}
             </div>
+            
           </div>
+          {/* Doctor's Image */}
+          <div className={`relative h-[600px] rounded-2xl overflow-hidden shadow-xl transition-all duration-1000 ${inView1 ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'}`}>
+            <img src="/lovable-uploads/dr-zubair-updated.jpg" alt="Dr. Zubair Hasan" className="w-full h-full object-cover object-top" />
+          </div>
+          
         </div>
 
         {/* Dr. Santiago Draghi Section */}
@@ -162,10 +165,7 @@ const AboutSection = () => {
 
         {/* Mo Helou Section */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start mb-24">
-          {/* Mo's Image */}
-          <div className="relative h-[600px] rounded-2xl overflow-hidden shadow-xl transition-all duration-1000">
-            <img src="/lovable-uploads/mo-helou-new.jpg" alt="Mo Helou" className="w-full h-full object-cover object-top" />
-          </div>
+          
 
           {/* Content */}
           <div className="flex flex-col min-h-[600px]">
@@ -205,6 +205,13 @@ const AboutSection = () => {
               </Button>
             </div>
           </div>
+
+          {/* Mo's Image */}
+          <div className="relative h-[600px] rounded-2xl overflow-hidden shadow-xl transition-all duration-1000">
+            <img src="/lovable-uploads/mo-helou-new.jpg" alt="Mo Helou" className="w-full h-full object-cover object-top" />
+          </div>
+
+          
         </div>
 
         {/* Sally Section */}
