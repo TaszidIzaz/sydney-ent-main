@@ -20,7 +20,7 @@ const PaediatricENT = () => {
           subtitle="Specialized ear, nose, and throat care tailored specifically for children and young patients."
           backgroundImage="https://images.unsplash.com/photo-1505751172876-fa1923c5c528?q=80&w=2940&auto=format&fit=crop"
           actionText="Schedule Consultation"
-          onActionClick={() => window.location.href = '/contact'}
+          onActionClick={() => window.open('https://healthengine.com.au/webplugin/?id=100246&source=webplugin&trigger=button', '_blank')}
         />
         
         <section className="py-16">

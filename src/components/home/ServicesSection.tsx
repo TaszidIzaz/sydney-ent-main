@@ -60,20 +60,7 @@ const ServicesSection = () => {
       link: "/services/pediatric",
       delay: 300
     },
-    {
-      title: "Allergy Management",
-      description: "Diagnosis and management of ENT-related allergic conditions.",
-      icon: <ThermometerSnowflake className="h-6 w-6" />,
-      link: "/services/allergy",
-      delay: 400
-    },
-    {
-      title: "Sleep Medicine",
-      description: "Treatment for sleep apnea, snoring, and other sleep-related breathing disorders.",
-      icon: <Users className="h-6 w-6" />,
-      link: "/services/sleep",
-      delay: 500
-    }
+  
   ];
 
   return (

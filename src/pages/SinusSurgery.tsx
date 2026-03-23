@@ -20,7 +20,7 @@ const SinusSurgery = () => {
           subtitle="Advanced surgical interventions for chronic sinus conditions, delivered with precision and care by our experienced specialists."
           backgroundImage="https://images.unsplash.com/photo-1584982751601-97dcc096659c?q=80&w=2942&auto=format&fit=crop"
           actionText="Schedule Consultation"
-          onActionClick={() => window.location.href = '/contact'}
+          onActionClick={() => window.open('https://healthengine.com.au/webplugin/?id=100246&source=webplugin&trigger=button', '_blank')}
         />
         
         {/* Service Description */}

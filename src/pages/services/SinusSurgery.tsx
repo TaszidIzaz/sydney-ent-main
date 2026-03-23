@@ -17,6 +17,8 @@ const SinusSurgery = () => {
         <PageHeroSection 
           title="Sinus Surgery"
           subtitle="Advanced surgical solutions for chronic sinus conditions"
+          actionText="Schedule Consultation"
+          onActionClick={() => window.open('https://healthengine.com.au/webplugin/?id=100246&source=webplugin&trigger=button', '_blank')}
         />
         
         {/* Service Description */}

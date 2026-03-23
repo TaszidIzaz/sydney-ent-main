@@ -20,7 +20,7 @@ const ThroatVoiceTreatments = () => {
           subtitle="Expert care for voice disorders, swallowing difficulties, and throat conditions."
           backgroundImage="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=2940&auto=format&fit=crop"
           actionText="Schedule Consultation"
-          onActionClick={() => window.location.href = '/contact'}
+          onActionClick={() => window.open('https://healthengine.com.au/webplugin/?id=100246&source=webplugin&trigger=button', '_blank')}
         />
         
         <section className="py-16">

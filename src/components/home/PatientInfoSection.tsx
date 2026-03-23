@@ -3,10 +3,11 @@ import { useInView } from 'react-intersection-observer';
 import { ChevronDown, FileText, User, Calendar, CreditCard, Clock } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
-import phoenixLogo from '@/assets/insurance/phoenix_logo.webp';
+import phoenixLogo from '@/assets/insurance/hcf.avif';
+import dhf from '@/assets/insurance/dhf.png';
 import nibLogo from '@/assets/insurance/nib_logo.png';
 import hbfLogo from '@/assets/insurance/hbf_logo.png';
-import stLukesLogo from '@/assets/insurance/st_lukes_logo.png';
+import stLukesLogo from '@/assets/insurance/thf.png';
 import medibankLogo from '@/assets/insurance/medibank_logo.png';
 
 interface AccordionItemProps {
@@ -121,6 +122,7 @@ const PatientInfoSection = () => {
               <img src={phoenixLogo} alt="Phoenix Health Fund" className="h-5 object-contain" />
               <img src={nibLogo} alt="NIB" className="h-5 object-contain" />
               <img src={hbfLogo} alt="HBF" className="h-5 object-contain" />
+              <img src={dhf} alt="St Lukes Health" className="h-5 object-contain" />
               <img src={stLukesLogo} alt="St Lukes Health" className="h-5 object-contain" />
               <img src={medibankLogo} alt="Medibank" className="h-5 object-contain" />
               <span className="text-sm text-gray-600">and many more</span>
@@ -135,9 +137,9 @@ const PatientInfoSection = () => {
             <li>Cash</li>
           </ul>
           <p className="mb-3">For billing inquiries, please contact our billing department at (02) 7813 6672.</p>
-          <Button variant="outline" className="text-ent-600 border-ent-600 hover:bg-ent-50">
+          {/* <Button variant="outline" className="text-ent-600 border-ent-600 hover:bg-ent-50">
             <Link to="/patient-info/insurance">View Accepted Insurance Plans</Link>
-          </Button>
+          </Button> */}
         </div>
       ),
     },
@@ -214,13 +216,7 @@ const PatientInfoSection = () => {
           ))}
         </div>
 
-        <div className={`text-center mt-10 transition-all duration-1000 delay-700 ${inView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-          <Link to="/patient-info">
-            <Button variant="outline" className="text-ent-600 border-ent-600 hover:bg-ent-50">
-              View All Patient Resources
-            </Button>
-          </Link>
-        </div>
+        {/*  */}
       </div>
     </section>
   );
