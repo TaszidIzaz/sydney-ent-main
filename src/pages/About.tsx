@@ -17,7 +17,7 @@ const About = () => {
       <main className="pt-16">
         <PageHeroSection 
           title="About Our Practice"
-          subtitle="Sydney's trusted ENT specialists delivering exceptional care since 2000"
+          subtitle="Sydney's trusted ENT specialists delivering exceptional care"
         />
         
         {/* Mission Statement */}
