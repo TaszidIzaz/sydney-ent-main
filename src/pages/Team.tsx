@@ -38,7 +38,7 @@ const DoctorProfile = ({
             <img 
               src={image} 
               alt={name} 
-              className="w-full h-[500px] object-cover rounded-xl shadow-xl"
+              className="w-full h-full object-cover rounded-xl shadow-xl"
             />
           </div>
           
