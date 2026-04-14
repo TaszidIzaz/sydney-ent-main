@@ -110,7 +110,7 @@ const AboutSection = () => {
           <div className="flex flex-col min-h-[600px]">
             <div className={`transition-all duration-1000 delay-300 flex-1 flex flex-col ${inView2 ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Dr. Santiago Draghi</h2>
-              <p className="text-xl text-ent-600 mb-6">Specialized in Paediatric and Adult Ear, Nose and Throat & Head and Neck Surgery and Otology, Neurotology and Hearing Implants Surgery | Co-Founder of Sydney Norwest ENT</p>
+              <p className="text-xl text-ent-600 mb-6">Specialized in Paediatric and Adult Ear, Nose and Throat & Head and Neck Surgery and Otology, Neurotology and Hearing Implants Surgery </p>
               
               <div className={`text-lg text-gray-600 mb-4 ${!expandedDoctors.santi ? 'line-clamp-6' : ''}`}>
                 <p className="mb-4">
