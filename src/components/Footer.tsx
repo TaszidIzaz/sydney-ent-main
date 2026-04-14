@@ -120,13 +120,13 @@ const Footer = () => {
 
             <h3 className="text-xl font-bold mb-4">Connect With Us</h3>
             <div className="flex space-x-4">
-              <a href="#" className="hover:text-ent-400 transition">
+              {/* <a href="#" className="hover:text-ent-400 transition">
                 <Facebook className="h-6 w-6" />
-              </a>
-              <a href="#" className="hover:text-ent-400 transition">
+              </a> */}
+              <a href="https://www.instagram.com/sydney.northwest.ent/" target="_blank" rel="noopener noreferrer" className="hover:text-ent-400 transition">
                 <Instagram className="h-6 w-6" />
               </a>
-              <a href="#" className="hover:text-ent-400 transition">
+              <a href="https://www.linkedin.com/company/sydney-northwest-ent/" target="_blank" rel="noopener noreferrer" className="hover:text-ent-400 transition">
                 <Linkedin className="h-6 w-6" />
               </a>
             </div>
