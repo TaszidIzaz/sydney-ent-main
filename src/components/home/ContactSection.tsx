@@ -68,11 +68,11 @@ const ContactSection = () => {
                       <p className="text-gray-700">Winston Hills NSW</p>
                       <p className="text-amber-600 font-medium text-sm">(Under Construction)</p>
                     </div>
-                    {/* <div>
+                    <div>
                       <p className="text-gray-700 font-semibold">Macquarie Park Consulting Rooms:</p>
                       <p className="text-gray-700">Level 1, 11 Khartoum Rd,</p>
                       <p className="text-gray-700">Macquarie Park NSW 2113</p>
-                    </div> */}
+                    </div>
                   </div>
                 </div>
 
@@ -196,8 +196,8 @@ const ContactSection = () => {
 
         {/* Maps Section */}
         <div className={`mt-16 transition-all duration-1000 delay-700 ${inView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-          <div className="grid md:grid-cols gap-6">
-            {/* Winston Hills Map */}
+          <div className="grid md:grid-cols-2 gap-6">
+            
             <div className="bg-gray-200 rounded-xl overflow-hidden shadow-lg h-[400px]">
               <div className="bg-gray-100 px-4 py-3 border-b">
                 <h3 className="font-semibold text-gray-800">Winston Hills Practice</h3>
@@ -216,7 +216,7 @@ const ContactSection = () => {
               />
             </div>
             
-            {/* Macquarie Park Map
+            
             <div className="bg-gray-200 rounded-xl overflow-hidden shadow-lg h-[400px]">
               <div className="bg-gray-100 px-4 py-3 border-b">
                 <h3 className="font-semibold text-gray-800">Macquarie Park Consulting Rooms</h3>
@@ -232,7 +232,7 @@ const ContactSection = () => {
                 referrerPolicy="no-referrer-when-downgrade"
                 title="Macquarie Park Practice Location"
               />
-            </div> */}
+            </div>
           </div>
         </div>
       </div>
