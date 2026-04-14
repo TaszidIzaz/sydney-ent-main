@@ -21,7 +21,7 @@ const PageHeroSection = ({
   onActionClick 
 }: PageHeroSectionProps) => {
   return (
-    <section className="relative min-h-[90vh] flex items-center bg-[#002b3d]">
+    <section className="relative min-h-[70vh] flex items-center bg-[#002b3d]">
       {/* Background Pattern */}
       <div className="absolute inset-0">
         <div className="absolute inset-0 bg-[url('/lovable-uploads/9518bfa4-8de3-4719-884c-0f3db88a152f.png')] bg-cover opacity-5" />
