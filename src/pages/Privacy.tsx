@@ -11,7 +11,7 @@ const Privacy = () => {
   return (
     <div className="min-h-screen bg-white">
       <Navbar />
-      <main className="pt-2">
+      <main className="pt-16">
         <PageHeroSection 
           title="Privacy Policy" 
           subtitle="How we handle and protect your personal and health information" 

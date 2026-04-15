@@ -66,7 +66,7 @@ const ContactSection = () => {
                       <p className="text-gray-700 font-semibold">Winston Hills Practice:</p>
                       <p className="text-gray-700">176 Windsor Rd,</p>
                       <p className="text-gray-700">Winston Hills NSW</p>
-                      <p className="text-amber-600 font-medium text-sm">(Under Construction)</p>
+                      {/* <p className="text-amber-600 font-medium text-sm">(Under Construction)</p> */}
                     </div>
                     <div>
                       <p className="text-gray-700 font-semibold">Macquarie Park Consulting Rooms:</p>

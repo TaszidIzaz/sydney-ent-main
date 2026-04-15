@@ -25,7 +25,7 @@ const Footer = () => {
                   <p className="text-gray-300 font-semibold">Winston Hills Practice:</p>
                   <p className="text-gray-300">176 Windsor Rd,</p>
                   <p className="text-gray-300">Winston Hills NSW</p>
-                  <p className="text-gray-400 text-sm italic">(Under Construction)</p>
+                  {/* <p className="text-gray-400 text-sm italic">(Under Construction)</p> */}
                 </div>
               </li>
               <li className="flex items-start">
