@@ -80,9 +80,19 @@ const PatientInfoSection = () => {
             <li>Download and complete our new patient forms before your visit</li>
             <li>Bring a list of current medications and medical history</li>
           </ul>
-          <Button variant="outline" className="text-ent-600 border-ent-600 hover:bg-ent-50">
-            <Link to="/patient-info/new-patients">Download New Patient Forms</Link>
+
+          <Button
+            variant="outline"
+            className="text-ent-600 border-ent-600 hover:bg-ent-50"
+          >
+            <a href="/new-patient-forms.pdf" download>
+              Download New Patient Forms
+            </a>
           </Button>
+
+          {/* <Button variant="outline" className="text-ent-600 border-ent-600 hover:bg-ent-50">
+            <Link to="/patient-info/new-patients">Download New Patient Forms</Link>
+          </Button> */}
         </div>
       ),
     },
