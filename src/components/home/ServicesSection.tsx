@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Ear, Stethoscope, Users, ThermometerSnowflake, Baby, Wind } from 'lucide-react';
+import { Ear, Stethoscope, Users, ThermometerSnowflake, Baby, Wind, Scissors } from 'lucide-react';
 import { useInView } from 'react-intersection-observer';
 import { Link } from 'react-router-dom';
 
@@ -59,6 +59,13 @@ const ServicesSection = () => {
       icon: <Baby className="h-6 w-6" />,
       link: "/services/pediatric",
       delay: 300
+    },
+    {
+      title: "Rhinoplasty",
+      description: "Specialist nose surgery to improve both the form and function of your nose.",
+      icon: <Scissors className="h-6 w-6" />,
+      link: "/services/rhinoplasty",
+      delay: 400
     },
   
   ];

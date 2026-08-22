@@ -73,6 +73,9 @@ const Navbar = () => {
                   <Link to="/services/pediatric" className="block px-4 py-2 hover:bg-gray-100">
                     Paediatric ENT
                   </Link>
+                  <Link to="/services/rhinoplasty" className="block px-4 py-2 hover:bg-gray-100">
+                    Rhinoplasty
+                  </Link>
                 </div>
               </div>
             </div>
@@ -169,6 +172,13 @@ const Navbar = () => {
                 onClick={() => setIsOpen(false)}
               >
                 Paediatric ENT
+              </Link>
+              <Link 
+                to="/services/rhinoplasty" 
+                className="block text-gray-700 hover:text-ent-500"
+                onClick={() => setIsOpen(false)}
+              >
+                Rhinoplasty
               </Link>
             </div>
           </details>
