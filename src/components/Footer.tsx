@@ -28,12 +28,25 @@ const Footer = () => {
                   {/* <p className="text-gray-400 text-sm italic">(Under Construction)</p> */}
                 </div>
               </li>
-              <li className="flex items-start">
+              <li className="flex items-start mb-6">
                 <MapPin className="h-5 w-5 text-ent-400 mr-3 mt-0.5" />
                 <div>
                   <p className="text-gray-300 font-semibold">Macquarie Park Consulting Rooms:</p>
                   <p className="text-gray-300">Level 1, 11 Khartoum Rd,</p>
                   <p className="text-gray-300">Macquarie Park NSW 2113</p>
+                </div>
+              </li>
+              <li className="flex items-start mt-3">
+                <div>
+                  <p className="text-gray-300 font-semibold">Verification badge from Doctify:</p>
+                  <Link to="/" className="flex items-center mt-3 ">
+                  
+                              <img 
+                                src="/lovable-uploads/Verified by Doctify - navy.png" 
+                                alt="Doctify Verified Badge Sydney Northwest ENT" 
+                                className="h-24"
+                              />
+                  </Link>
                 </div>
               </li>
             </ul>
