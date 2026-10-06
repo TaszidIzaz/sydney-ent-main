@@ -38,7 +38,7 @@ const Footer = () => {
               </li>
               <li className="flex items-start mt-3">
                 <div>
-                  <p className="text-gray-300 font-semibold">Verification badge from Doctify:</p>
+                  
                   <Link to="/" className="flex items-center mt-3 ">
                   
                               <img 

@@ -64,6 +64,14 @@ const HeroSection = () => {
             </Button>
           </div>
         </div>
+         <Link to="/" className="flex items-center mt-8 ">
+                          
+                                      <img 
+                                        src="/lovable-uploads/Verified by Doctify - navy.png" 
+                                        alt="Doctify Verified Badge Sydney Northwest ENT" 
+                                        className="h-24"
+                                      />
+          </Link>
       </div>
 
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">

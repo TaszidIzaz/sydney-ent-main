@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Ear, Stethoscope, Users, ThermometerSnowflake, Baby, Wind, Scissors } from 'lucide-react';
+import { Ear, Stethoscope, Users, ThermometerSnowflake, Baby, Wind, Scissors, Video } from 'lucide-react';
 import { useInView } from 'react-intersection-observer';
 import { Link } from 'react-router-dom';
 
@@ -66,6 +66,13 @@ const ServicesSection = () => {
       icon: <Scissors className="h-6 w-6" />,
       link: "/services/rhinoplasty",
       delay: 400
+    },
+    {
+      title: "Rural & Regional Telehealth",
+      description: "Video ENT consultations for rural and regional NSW patients, without the need to travel to Sydney.",
+      icon: <Video className="h-6 w-6" />,
+      link: "/services/rural-ent",
+      delay: 500
     },
   
   ];

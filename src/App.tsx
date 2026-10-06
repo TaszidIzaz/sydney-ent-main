@@ -15,6 +15,7 @@ import ThroatVoiceTreatments from "./pages/services/ThroatVoiceTreatments";
 import PaediatricENT from "./pages/services/PaediatricENT";
 import SinusSurgery from "./pages/services/SinusSurgery";
 import Rhinoplasty from "./pages/services/Rhinoplasty";
+import RuralENT from "./pages/services/RuralENT";
 import Team from "./pages/Team";
 import Contact from "./pages/Contact";
 import Fees from "./pages/Fees";
@@ -42,6 +43,7 @@ const App = () => (
           <Route path="/services/pediatric" element={<PaediatricENT />} />
           <Route path="/services/sinus-surgery" element={<SinusSurgery />} />
           <Route path="/services/rhinoplasty" element={<Rhinoplasty />} />
+          <Route path="/services/rural-ent" element={<RuralENT />} />
           <Route path="/team" element={<Team />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/fees" element={<Fees />} />
