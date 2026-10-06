@@ -143,8 +143,8 @@ const RuralENT = () => {
                     <ul className="space-y-2 text-gray-700">
                       <li className="flex items-start"><CheckCircle className="h-5 w-5 text-ent-500 mr-2 flex-shrink-0 mt-0.5" />Hearing loss</li>
                       <li className="flex items-start"><CheckCircle className="h-5 w-5 text-ent-500 mr-2 flex-shrink-0 mt-0.5" />Tinnitus</li>
-                      <li className="flex items-start"><CheckCircle className="h-5 w-5 text-ent-500 mr-2 flex-shrink-0 mt-0.5" />Eustachian tube dysfunction</li>
-                      <li className="flex items-start"><CheckCircle className="h-5 w-5 text-ent-500 mr-2 flex-shrink-0 mt-0.5" />Recurrent ear problems</li>
+                      {/* <li className="flex items-start"><CheckCircle className="h-5 w-5 text-ent-500 mr-2 flex-shrink-0 mt-0.5" />Eustachian tube dysfunction</li>
+                      <li className="flex items-start"><CheckCircle className="h-5 w-5 text-ent-500 mr-2 flex-shrink-0 mt-0.5" />Recurrent ear problems</li> */}
                       <li className="flex items-start"><CheckCircle className="h-5 w-5 text-ent-500 mr-2 flex-shrink-0 mt-0.5" />Review of audiograms and hearing tests</li>
                       <li className="flex items-start"><CheckCircle className="h-5 w-5 text-ent-500 mr-2 flex-shrink-0 mt-0.5" />Discussion of ear surgery</li>
                       <li className="flex items-start"><CheckCircle className="h-5 w-5 text-ent-500 mr-2 flex-shrink-0 mt-0.5" />Cholesteatoma assessment and surgical planning</li>
@@ -172,7 +172,7 @@ const RuralENT = () => {
                   </CardContent>
                 </Card>
 
-                <Card>
+                {/* <Card>
                   <CardContent className="p-6">
                     <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-center">
                       <span className="w-2 h-8 bg-ent-500 rounded mr-3"></span>
@@ -184,9 +184,9 @@ const RuralENT = () => {
                       <li className="flex items-start"><CheckCircle className="h-5 w-5 text-ent-500 mr-2 flex-shrink-0 mt-0.5" />Tonsil problems</li>
                     </ul>
                   </CardContent>
-                </Card>
+                </Card> */}
 
-                <Card>
+                {/* <Card>
                   <CardContent className="p-6">
                     <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-center">
                       <span className="w-2 h-8 bg-ent-500 rounded mr-3"></span>
@@ -201,7 +201,7 @@ const RuralENT = () => {
                       </p>
                     </div>
                   </CardContent>
-                </Card>
+                </Card> */}
               </div>
             </div>
           </div>
