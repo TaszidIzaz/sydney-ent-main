@@ -67,13 +67,13 @@ const ServicesSection = () => {
       link: "/services/rhinoplasty",
       delay: 400
     },
-    {
-      title: "Rural & Regional Telehealth",
-      description: "Video ENT consultations for rural and regional NSW patients, without the need to travel to Sydney.",
-      icon: <Video className="h-6 w-6" />,
-      link: "/services/rural-ent",
-      delay: 500
-    },
+    // {
+    //   title: "Rural & Regional Telehealth",
+    //   description: "Video ENT consultations for rural and regional NSW patients, without the need to travel to Sydney.",
+    //   icon: <Video className="h-6 w-6" />,
+    //   link: "/services/rural-ent",
+    //   delay: 500
+    // },
   
   ];
 

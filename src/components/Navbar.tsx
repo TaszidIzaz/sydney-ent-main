@@ -76,9 +76,9 @@ const Navbar = () => {
                   <Link to="/services/rhinoplasty" className="block px-4 py-2 hover:bg-gray-100">
                     Rhinoplasty
                   </Link>
-                  <Link to="/services/rural-ent" className="block px-4 py-2 hover:bg-gray-100">
+                  {/* <Link to="/services/rural-ent" className="block px-4 py-2 hover:bg-gray-100">
                     Rural &amp; Regional Telehealth
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
@@ -183,13 +183,13 @@ const Navbar = () => {
               >
                 Rhinoplasty
               </Link>
-              <Link 
+              {/* <Link 
                 to="/services/rural-ent" 
                 className="block text-gray-700 hover:text-ent-500"
                 onClick={() => setIsOpen(false)}
               >
                 Rural &amp; Regional Telehealth
-              </Link>
+              </Link> */}
             </div>
           </details>
           <Link 
